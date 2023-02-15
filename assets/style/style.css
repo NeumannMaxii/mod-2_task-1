@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  background: rgb(236, 22, 65) !important;
+  border: 2px solid black !important;
+  color: white !important;
+}
+
+.navb nav {
+  background: cornsilk !important;
+}
+
+body {
+  background: cornsilk !important;
+}
+
+.casiCarrusel {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(236, 22, 65);
+  padding: 20px 20px 10px;
+  font-size: x-large;
+}
+
+.casiCarrusel a {
+  text-decoration: none;
+  color: white;
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.categorias form {
+  display: flex;
+  justify-content: end !important;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: start;
+}
+
+.tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 17rem;
+  margin: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.card-body {
+  background: bisque;
+}
+
+.cards a {
+  display: flex;
+  justify-content: end;
+}
+
+.precios {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(236, 22, 65);
+  padding: 15px;
+}
+
+footer img {
+  width: 3rem;
+  margin: 2px 10px;
+}
+
+footer p {
+  font-size: x-large;
+  margin: 9px 60px 9px 0;
+}
